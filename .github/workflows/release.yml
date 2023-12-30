@@ -28,5 +28,6 @@ jobs:
       - name: Set up Maven
         uses: stCarolas/setup-maven@v4.5
 
-      - name: Publish package
+      - name: Publish package (only Engine, not plugin)
         run: mvn --batch-mode deploy
+        working-directory: ./NexEngine
