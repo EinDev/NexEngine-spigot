@@ -30,6 +30,6 @@ jobs:
 
       - name: Publish package (only Engine, not plugin)
         run: mvn --batch-mode deploy
-        working-directory: ./NexEngine
+        working-directory: ./nex-engine
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

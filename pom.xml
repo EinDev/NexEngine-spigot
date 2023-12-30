@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>su.nexmedia</groupId>
-    <artifactId>NexEnginePlugin</artifactId>
+    <artifactId>nex-engine-plugin</artifactId>
     <packaging>pom</packaging>
     <version>2.2.12</version>
     <modules>
-        <module>NexEngine</module>
+        <module>nex-engine</module>
     </modules>
 
     <properties>
